@@ -1,0 +1,8 @@
+选择合适的模型，根据自己收集的天气数据，训练模型，输出天气的预测
+
+整体思路：
+1、使用pytorch和numpy
+用pytorch实现一种较复杂的模型，用numpy实现至少两种较简单的模型
+2、使用web框架将训练好的模型集成到web端进行可视化，框架使用streamlit或者pyecharts
+效果参考：https://gitee.com/elegant_Code/weather
+3、数据集使用temps.csv或者参考网上爬取适合的数据
